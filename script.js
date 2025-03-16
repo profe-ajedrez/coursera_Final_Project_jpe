@@ -1,7 +1,7 @@
 (function(){
     let destinies;
 
-    fetch('script.json')
+    fetch('destinies.json')
         .then(response => response.json())
         .then(jsonData => {
             destinies = jsonData;
