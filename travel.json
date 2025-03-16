@@ -1,0 +1,65 @@
+{
+    "countries": [
+      {
+        "id": 1,
+        "name": "Chile",
+        "cities": [
+          {
+            "name": "Santiago, Chile",
+            "imageUrl": "santiago.jpg",
+            "description": "The capital of Chile."
+          },
+          {
+            "name": "Parral, Chile",
+            "imageUrl": "parral.jpg",
+            "description": "A little city to rest"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Perú",
+        "cities": [
+          {
+            "name": "Lima, Perú",
+            "imageUrl": "lima.jpg",
+            "description": "Capital of Perú"
+          },
+          {
+            "name": "Hauncayo, Perú",
+            "imageUrl": "huancayo.jpg",
+            "description": "A pretty city"
+          }
+        ]
+      }
+    ],
+    "temples": [
+      {
+        "id": 1,
+        "name": "Templo de Maipú, Chile",
+        "imageUrl": "templomaipu.jpeg",
+        "description": "A historic temple"
+      },
+      {
+        "id": 2,
+        "name": "Catedral, Chile",
+        "imageUrl": "catedralsantiago.jpeg",
+        "description": "First Catedral of Chile"
+      }
+    ],
+    "beaches": [
+      {
+        "id": 1,
+        "name": "Viña, Chile",
+        "imageUrl": "vinadelmar.jpg",
+        "description": "A trendy beach"
+      },
+      {
+        "id": 2,
+        "name": "Curanipe, Chile",
+        "imageUrl": "curanipe.jpg",
+        "description": "A pretty beach"
+      }
+    ]
+  }
+  
