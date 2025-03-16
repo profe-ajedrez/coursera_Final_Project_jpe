@@ -19,21 +19,25 @@
             return;
         }
 
-        if(input == "beach" || input == "beaches"){
-            destinies.beaches.forEach(beach => {
-                results.push(beach)
-            });
-        }else if(input == "temples" || input == "temple"){
-            destinies.temples.forEach(temple => {
-                results.push(temple);
-            });
-        }else if(input == "country" || input == "countries"){
-            destinies.countries.forEach(country => {
-                country.cities.forEach(city => {
-                    results.push(city);
+    
+        switch (true) {            
+            case (input == "beach" || input == "beaches" || input == "bea"):
+                destinies.beaches.forEach(beach => {
+                    results.push(beach)
                 });
-            });
+                break;
+            case (input == "temples" || input == "temple" || input == "templ" || input == "temp"):
+                destinies.temples.forEach(temple => {
+                    results.push(temple);
+                });
+            case (input == "countries" || input == "country" || input == "countr" || input == "count" || input == "coun"):
+                destinies.countries.forEach(country => {
+                    country.cities.forEach(city => {
+                        results.push(city);
+                    });
+                });
         }
+
 
         show(results);
     });
