@@ -4,6 +4,7 @@ function receiveMail(){
 
 document.getElementById('btnReset').addEventListener('click', function() {
     document.getElementById('results').innerHTML = '';
+    document.getElementById('q').value = '';
 });
 
 
